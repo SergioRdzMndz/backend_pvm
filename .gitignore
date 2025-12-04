@@ -1,0 +1,16 @@
+#VS
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Other
+*.log
+*.tmp
+*.cache
+*.config
