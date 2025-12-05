@@ -82,7 +82,9 @@ namespace Back.Services
             {
                 IdVenta = dto.IdVenta,
                 Monto = dto.Monto,
-                Fecha  = DateTime.Now
+                Fecha  = DateTime.Now,
+                MetodoPago = dto.MetodoPago
+
             };
             _context.pagos.Add(pago);
             venta.Estado = "Pagado";
