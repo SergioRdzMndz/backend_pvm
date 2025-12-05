@@ -35,7 +35,7 @@ namespace Back.Controllers
                 new Claim(ClaimTypes.Role, usuario.Rol ?? "Usuario")  // Corregido: Rol
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("TuClaveSecretaAqui"));  // Cambia por una segura
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YH27sdf87sd6f78sdf67fsd6f7sd6f7sdf6fsdf"));  // Cambia por una segura
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(

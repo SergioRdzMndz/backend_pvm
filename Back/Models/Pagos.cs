@@ -12,7 +12,7 @@ namespace Back.Models //SERGIO RODRIGUEZ MENDOZA
         [ForeignKey("Ventas")]
         public int IdVenta { get; set; }
         public Ventas? Venta { get; set; }
-        public string MetodoPago { get; set; }
+        public string? MetodoPago { get; set; }
         public decimal Monto { get; set; }
         public DateTime? Fecha { get => fecha; set => fecha = value; }
     }

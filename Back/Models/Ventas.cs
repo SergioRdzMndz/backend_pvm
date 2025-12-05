@@ -18,7 +18,7 @@ namespace Back.Models //SERGIO RODRIGUEZ MENDOZA
         public int IdEmpleado { get; set; }
         public Empleados? Empleado { get; set; }
 
-        public string Estado { get; set; } = "Pedido";
+        public string? Estado { get; set; } = "Pedido";
         
         
         public ICollection<Pagos>? Pago { get; set; }
